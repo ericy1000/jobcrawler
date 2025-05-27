@@ -1,6 +1,6 @@
 [project]
 name = "jobcrawler"
-version = "0.1.1"
+version = "0.1.2"
 description = "Python project to automate extracting job information directly from ATS"
 authors = [
   { name="Eric Yang", email="notmyemail@notmyemail.com" }

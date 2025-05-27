@@ -399,6 +399,7 @@ FodyWeavers.xsd
 
 # ignore all . folders but include . files
 .*/
+!.github/
 
 # ignore all xlsx files
 *.xlsx
