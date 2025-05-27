@@ -396,3 +396,16 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# ignore all . folders but include . files
+.*/
+
+# ignore all xlsx files
+*.xlsx
+
+# Ignore all env files
+.env
+.env.*
+
+# But keep the example
+!.env.example
