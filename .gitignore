@@ -403,9 +403,29 @@ FodyWeavers.xsd
 # ignore all xlsx files
 *.xlsx
 
-# Ignore all env files
+# Ignore all env files.
+venv/
 .env
+.envrc
+.venv/
 .env.*
 
 # But keep the example
 !.env.example
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest cache
+.pytest_cache/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore dist build artifact that is generated when preparing to upload to pypi manuallly
+dist/
+build/
+*.egg-info/
